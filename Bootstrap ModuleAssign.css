@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/* Add your css here */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F0F0F0;
+}
+
+.banner {
+  background-image: url(../images/bg.jpg);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-tranparent {
+  background-color: transparent;
+  border-color: #000;
+  color: #fff;
+}
+
+a.href_login {
+  color: #fff;
+  border-color: #000;
+  text-decoration: none;
+}
+
+.banner_text {
+  color: #fff;
+}
+
+.search-del1 {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.detect-btn {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.input-group > .custom-select:not(:last-child), .input-group > .search-del1:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group > .custom-file, .input-group > .custom-select, .input-group > .search-del1, .input-group > .search-del1-plaintext {
+  position: relative;
+  -ms-flex: 1 1 0%;
+  -webkit-box-flex: 1;
+          flex: 1 1 0%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.input-group > .input-group-append > .detect-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.order-btn {
+  padding: 5px 85px;
+  background-color: #5BA829;
+  color: #fff;
+}
+
+.coupon_text {
+  color: #5BA829;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner_img {
+    display: none;
+  }
+  .order-btn {
+    font-size: 14px;
+  }
+}
+
+.card2 {
+  font-size: 13px;
+}
+
+.category-list {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.category-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.cat_list {
+  background-color: #fff;
+}
+
+.offset-sm-1 {
+  margin-left: -5.666667%;
+}
+
+@media only screen and (max-width: 600px) {
+  .offset-sm-1 {
+    margin-left: -0.666667%;
+  }
+}
+
+.localities_bg {
+  background-color: #fff;
+}
+
+span.loc_span {
+  font-size: 12px;
+  padding-left: 4px;
+  color: gray;
+}
+
+.localities li {
+  list-style-type: none;
+}
